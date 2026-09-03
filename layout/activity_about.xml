@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="12dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="About Senza Kwenzeke" android:textColor="#D4AF37" android:textSize="18sp"
+            android:textStyle="bold" android:layout_gravity="center"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="&quot;Senzakwenzeke&quot; - We Make It Happen" android:textColor="#888"
+            android:textSize="9sp" android:layout_gravity="center" android:layout_marginTop="4dp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="#1A1A2E" android:padding="14dp"
+            android:layout_marginTop="12dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Our Story" android:textColor="#F2C100" android:textStyle="bold"
+                android:layout_gravity="center" android:textSize="12sp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Based in the heart of Bothas Hill, Durban, Senza Kwenzeke Decor and Catering was founded with one mission: to turn your dream event into reality. From intimate lobola celebrations to grand weddings, we bring authentic Zulu tradition mixed with modern elegance.\n\nWhat started as a small family business has grown into Durban's trusted name for decor and catering. We don't just decorate - we create memories that last forever."
+                android:textColor="#FFFFFF" android:textSize="9sp" android:layout_marginTop="8dp" android:lineSpacingExtra="3dp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginTop="12dp">
+            <LinearLayout android:layout_width="0dp" android:layout_height="110dp" android:layout_weight="1"
+                android:orientation="vertical" android:gravity="center" android:padding="8dp"
+                android:background="#FFFFFF" android:layout_margin="4dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🎯"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Our Mission" android:textColor="#333" android:textStyle="bold" android:textSize="10sp" android:layout_marginTop="4dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="To deliver affordable, beautiful and stress-free events for every family in KZN."
+                    android:textColor="#666" android:textSize="7sp" android:gravity="center" android:layout_marginTop="4dp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="110dp" android:layout_weight="1"
+                android:orientation="vertical" android:gravity="center" android:padding="8dp"
+                android:background="#1A1A2E" android:layout_margin="4dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="👁️"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Our Vision" android:textColor="#F2C100" android:textStyle="bold" android:textSize="10sp" android:layout_marginTop="4dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="To be the #1 decor &amp; catering brand in KwaZulu-Natal known for quality and culture."
+                    android:textColor="#FFF" android:textSize="7sp" android:gravity="center" android:layout_marginTop="4dp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="110dp" android:layout_weight="1"
+                android:orientation="vertical" android:gravity="center" android:padding="8dp"
+                android:background="#FFFFFF" android:layout_margin="4dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="💛"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Our Values" android:textColor="#333" android:textStyle="bold" android:textSize="10sp" android:layout_marginTop="4dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Ubuntu, Respect, Creativity, and Excellence in every event we touch."
+                    android:textColor="#666" android:textSize="7sp" android:gravity="center" android:layout_marginTop="4dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:layout_width="130dp" android:layout_height="35dp" android:text="View Our Services"
+            android:textSize="9sp" android:backgroundTint="#F2C100" android:textColor="#000"
+            android:layout_gravity="center" android:layout_marginTop="12dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="30dp"
+            android:text="© 2026 Senzakwenzeke - Bothas Hill, Durban - 081 234 5678"
+            android:background="#1A1A2E" android:textColor="#F2C100" android:gravity="center" android:textSize="8sp" android:layout_marginTop="14dp"/>
+    </LinearLayout>
+</ScrollView>

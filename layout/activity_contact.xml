@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="12dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Contact Us" android:textColor="#D4AF37" android:textSize="20sp"
+            android:textStyle="bold" android:layout_gravity="center"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Bothas Hill, Durban - We bring your event to life" android:textColor="#888"
+            android:textSize="9sp" android:layout_gravity="center" android:layout_marginTop="4dp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginTop="14dp">
+            <LinearLayout android:layout_width="0dp" android:layout_height="280dp" android:layout_weight="1"
+                android:orientation="vertical" android:background="#1A1A2E" android:padding="12dp" android:layout_margin="4dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="📍 Get In Touch" android:textColor="#F2C100" android:textStyle="bold" android:textSize="11sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Location:\nBothas Hill\nDurban, KZN 3610\n\nPhone:\n081 234 5678\n\nEmail:\ninfo@senzakwenzeke.co.za\n\nHours:\nMon - Sat: 8am - 6pm\nSunday: By Appointment"
+                    android:textColor="#FFFFFF" android:textSize="8sp" android:layout_marginTop="10dp" android:lineSpacingExtra="3dp"/>
+                <Button android:layout_width="110dp" android:layout_height="30dp" android:text="WhatsApp Us"
+                    android:backgroundTint="#25D366" android:textSize="8sp" android:layout_marginTop="10dp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="280dp" android:layout_weight="1"
+                android:orientation="vertical" android:background="#1A1A2E" android:padding="12dp" android:layout_margin="4dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="💬 Send Message" android:textColor="#F2C100" android:textStyle="bold" android:textSize="11sp"/>
+                <EditText android:id="@+id/etName" android:layout_width="match_parent" android:layout_height="32dp" android:hint="Your Name"
+                    android:background="#FFF" android:textSize="9sp" android:padding="6dp" android:layout_marginTop="8dp"/>
+                <EditText android:id="@+id/etEmail" android:layout_width="match_parent" android:layout_height="32dp" android:hint="Your Email"
+                    android:background="#FFF" android:textSize="9sp" android:padding="6dp" android:layout_marginTop="6dp"/>
+                <EditText android:id="@+id/etSubject" android:layout_width="match_parent" android:layout_height="32dp" android:hint="Subject"
+                    android:background="#FFF" android:textSize="9sp" android:padding="6dp" android:layout_marginTop="6dp"/>
+                <EditText android:id="@+id/etMessage" android:layout_width="match_parent" android:layout_height="70dp" android:hint="Your Message..."
+                    android:background="#FFF" android:textSize="9sp" android:padding="6dp" android:layout_marginTop="6dp" android:gravity="top"/>
+                <Button android:id="@+id/btnSend" android:layout_width="match_parent" android:layout_height="32dp" android:text="Send Message"
+                    android:backgroundTint="#F2C100" android:textColor="#000" android:textSize="9sp" android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="30dp"
+            android:text="© 2026 Senzakwenzeke - Bothas Hill, Durban - 081 234 5678"
+            android:background="#1A1A2E" android:textColor="#F2C100" android:gravity="center"
+            android:textSize="8sp" android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>
