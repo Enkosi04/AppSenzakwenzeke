@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="12dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Our Services" android:textColor="#D4AF37" android:textSize="18sp"
+            android:textStyle="bold" android:layout_gravity="center" android:layout_marginTop="10dp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginTop="14dp">
+            <LinearLayout android:layout_width="0dp" android:layout_height="170dp" android:layout_weight="1"
+                android:orientation="vertical" android:background="#1A1A2E" android:padding="8dp"
+                android:gravity="center" android:layout_margin="4dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🎂 Decor" android:textColor="#F2C100" android:textStyle="bold" android:textSize="11sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Weddings\n\nLobola Celebrations\n\nBirthdays\n\nCorporate Events\n\nTraditional &amp; Modern Styles"
+                    android:textColor="#FFF" android:textSize="8sp" android:gravity="center" android:layout_marginTop="8dp" android:lineSpacingExtra="4dp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="170dp" android:layout_weight="1"
+                android:orientation="vertical" android:background="#1A1A2E" android:padding="8dp"
+                android:gravity="center" android:layout_margin="4dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🍽️ Catering" android:textColor="#F2C100" android:textStyle="bold" android:textSize="11sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Basic Package (3 courses)\n\nStandard Package (4 courses)\n\nPremium Package (5 courses)\n\nCustom Menus Available\n\nServing Bothas Hill &amp; Durban"
+                    android:textColor="#FFF" android:textSize="8sp" android:gravity="center" android:layout_marginTop="8dp" android:lineSpacingExtra="4dp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="170dp" android:layout_weight="1"
+                android:orientation="vertical" android:background="#1A1A2E" android:padding="8dp"
+                android:gravity="center" android:layout_margin="4dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🎉 Event Planning" android:textColor="#F2C100" android:textStyle="bold" android:textSize="11sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Full Event Planning\n\nEquipment Hire\n\nTables &amp; Chairs\n\nSound &amp; Lighting\n\nOn-the-day Coordination"
+                    android:textColor="#FFF" android:textSize="8sp" android:gravity="center" android:layout_marginTop="8dp" android:lineSpacingExtra="4dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:layout_width="110dp" android:layout_height="35dp" android:text="Book Now"
+            android:backgroundTint="#F2C100" android:textColor="#000" android:textSize="10sp"
+            android:layout_gravity="center" android:layout_marginTop="14dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="30dp"
+            android:text="© 2026 Senzakwenzeke - Bothas Hill, Durban - 081 234 5678"
+            android:background="#1A1A2E" android:textColor="#F2C100" android:gravity="center" android:textSize="8sp" android:layout_marginTop="14dp"/>
+    </LinearLayout>
+</ScrollView>

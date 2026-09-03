@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- TOP NAV LIKE WEBSITE -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+            android:background="#1A1A2E" android:orientation="horizontal"
+            android:gravity="center_vertical" android:padding="6dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Senzakwenzeke" android:textColor="#F2C100"
+                android:textStyle="bold" android:textSize="11sp" android:layout_weight="1"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Home" android:textColor="#F2C100" android:textSize="8sp" android:layout_margin="4dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="About" android:textColor="#FFFFFF" android:textSize="8sp" android:layout_margin="4dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Services" android:textColor="#FFFFFF" android:textSize="8sp" android:layout_margin="4dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Booking" android:textColor="#FFFFFF" android:textSize="8sp" android:layout_margin="4dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Contact" android:textColor="#FFFFFF" android:textSize="8sp" android:layout_margin="4dp"/>
+        </LinearLayout>
+
+        <!-- BLACK HERO -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="280dp"
+            android:orientation="vertical" android:gravity="center"
+            android:background="#0A0A0A" android:padding="20dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Elegant Decor &amp; Catering" android:textColor="#F2C100"
+                android:textSize="20sp" android:textStyle="bold" android:gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Making Every Occasion Unforgettable in Durban"
+                android:textColor="#FFFFFF" android:textSize="11sp" android:gravity="center"
+                android:layout_marginTop="10dp"/>
+            <Button android:layout_width="120dp" android:layout_height="38dp"
+                android:text="BOOK NOW" android:textSize="10sp" android:textColor="#000000"
+                android:backgroundTint="#F2C100" android:layout_marginTop="18dp"/>
+        </LinearLayout>
+
+        <!-- WHITE WELCOME -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:gravity="center" android:padding="20dp"
+            android:background="#FFFFFF">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Welcome to Senzakwenzeke" android:textColor="#2D2D2D"
+                android:textSize="15sp" android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Weddings | Lobola | Birthdays | Corporate" android:textColor="#777"
+                android:textSize="9sp" android:layout_marginTop="4dp"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:layout_marginTop="18dp">
+                <LinearLayout android:layout_width="0dp" android:layout_height="80dp" android:layout_weight="1"
+                    android:orientation="vertical" android:gravity="center" android:background="#F9F9F9"
+                    android:layout_margin="4dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Decor" android:textColor="#D4AF37" android:textStyle="bold" android:textSize="11sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Beautiful" android:textColor="#999" android:textSize="8sp" android:layout_marginTop="4dp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="80dp" android:layout_weight="1"
+                    android:orientation="vertical" android:gravity="center" android:background="#F9F9F9"
+                    android:layout_margin="4dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Catering" android:textColor="#D4AF37" android:textStyle="bold" android:textSize="11sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Delicious" android:textColor="#999" android:textSize="8sp" android:layout_marginTop="4dp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="80dp" android:layout_weight="1"
+                    android:orientation="vertical" android:gravity="center" android:background="#F9F9F9"
+                    android:layout_margin="4dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Planning" android:textColor="#D4AF37" android:textStyle="bold" android:textSize="11sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Stress-free" android:textColor="#999" android:textSize="8sp" android:layout_marginTop="4dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- ABOUT SECTION ON HOME -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="#1A1A2E" android:padding="16dp" android:layout_margin="12dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="About Senza Kwenzeke" android:textColor="#F2C100" android:textStyle="bold"
+                android:layout_gravity="center" android:textSize="13sp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Based in Bothas Hill, Durban, we turn your dream event into reality. From intimate lobola celebrations to grand weddings, we bring authentic Zulu tradition mixed with modern elegance."
+                android:textColor="#FFFFFF" android:textSize="9sp" android:layout_marginTop="8dp" android:lineSpacingExtra="3dp"/>
+        </LinearLayout>
+
+        <!-- SERVICES ON HOME -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_margin="8dp">
+            <LinearLayout android:layout_width="0dp" android:layout_height="110dp" android:layout_weight="1"
+                android:orientation="vertical" android:gravity="center" android:background="#1A1A2E"
+                android:layout_margin="4dp" android:padding="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Decor" android:textColor="#F2C100" android:textStyle="bold" android:textSize="10sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Weddings, Lobola, Birthdays" android:textColor="#FFF" android:textSize="7sp" android:gravity="center" android:layout_marginTop="6dp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="110dp" android:layout_weight="1"
+                android:orientation="vertical" android:gravity="center" android:background="#1A1A2E"
+                android:layout_margin="4dp" android:padding="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Catering" android:textColor="#F2C100" android:textStyle="bold" android:textSize="10sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Basic, Standard, Premium" android:textColor="#FFF" android:textSize="7sp" android:gravity="center" android:layout_marginTop="6dp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="110dp" android:layout_weight="1"
+                android:orientation="vertical" android:gravity="center" android:background="#1A1A2E"
+                android:layout_margin="4dp" android:padding="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Planning" android:textColor="#F2C100" android:textStyle="bold" android:textSize="10sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Full Coordination &amp; Equipment" android:textColor="#FFF" android:textSize="7sp" android:gravity="center" android:layout_marginTop="6dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- BOOKING ON HOME -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="#1A1A2E" android:padding="16dp" android:layout_margin="12dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Book Your Event" android:textColor="#F2C100" android:textStyle="bold"
+                android:layout_gravity="center" android:textSize="13sp"/>
+            <EditText android:layout_width="match_parent" android:layout_height="36dp"
+                android:hint="Full Name" android:background="#FFFFFF" android:textSize="9sp"
+                android:padding="8dp" android:layout_marginTop="10dp"/>
+            <EditText android:layout_width="match_parent" android:layout_height="36dp"
+                android:hint="Phone: 081 234 5678" android:background="#FFFFFF" android:textSize="9sp"
+                android:padding="8dp" android:layout_marginTop="6dp"/>
+            <EditText android:layout_width="match_parent" android:layout_height="36dp"
+                android:hint="Event Date" android:background="#FFFFFF" android:textSize="9sp"
+                android:padding="8dp" android:layout_marginTop="6dp"/>
+            <Button android:layout_width="match_parent" android:layout_height="36dp"
+                android:text="Submit Booking" android:backgroundTint="#F2C100" android:textColor="#000"
+                android:textSize="10sp" android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+        <!-- CONTACT ON HOME -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="#F9F9F9" android:padding="16dp" android:layout_margin="12dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Contact Us" android:textColor="#333" android:textStyle="bold"
+                android:layout_gravity="center" android:textSize="13sp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="📍 Bothas Hill, Durban, KZN 3610&#10;📞 081 234 5678&#10;✉️ info@senzakwenzeke.co.za&#10;🕒 Mon-Sat 8am-6pm"
+                android:textColor="#555" android:textSize="9sp" android:layout_marginTop="8dp"
+                android:layout_gravity="center" android:gravity="center" android:lineSpacingExtra="4dp"/>
+            <Button android:layout_width="match_parent" android:layout_height="36dp"
+                android:text="WhatsApp Us" android:backgroundTint="#25D366"
+                android:textSize="10sp" android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+        <TextView android:layout_width="match_parent" android:layout_height="35dp"
+            android:text="© 2026 Senzakwenzeke - Bothas Hill, Durban - 081 234 5678"
+            android:background="#1A1A2E" android:textColor="#F2C100" android:gravity="center"
+            android:textSize="8sp"/>
+    </LinearLayout>
+</ScrollView>

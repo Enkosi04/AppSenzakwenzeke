@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#FFFFFF">
+
+    <!-- TOP NAV BAR LIKE YOUR WEBSITE -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="50dp"
+        android:orientation="horizontal" android:background="#1A1A2E"
+        android:gravity="center_vertical" android:padding="8dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Senzakwenzeke" android:textColor="#F2C100"
+            android:textStyle="bold" android:textSize="11sp" android:layout_marginEnd="12dp"/>
+        <Button android:id="@+id/btnHome" android:layout_width="wrap_content" android:layout_height="30dp"
+            android:text="Home" android:textSize="8sp" android:backgroundTint="#1A1A2E" android:textColor="#FFFFFF"/>
+        <Button android:id="@+id/btnAbout" android:layout_width="wrap_content" android:layout_height="30dp"
+            android:text="About" android:textSize="8sp" android:backgroundTint="#1A1A2E" android:textColor="#FFFFFF"/>
+        <Button android:id="@+id/btnServices" android:layout_width="wrap_content" android:layout_height="30dp"
+            android:text="Services" android:textSize="8sp" android:backgroundTint="#1A1A2E" android:textColor="#FFFFFF"/>
+        <Button android:id="@+id/btnBooking" android:layout_width="wrap_content" android:layout_height="30dp"
+            android:text="Booking" android:textSize="8sp" android:backgroundTint="#1A1A2E" android:textColor="#FFFFFF"/>
+        <Button android:id="@+id/btnContact" android:layout_width="wrap_content" android:layout_height="30dp"
+            android:text="Contact" android:textSize="8sp" android:backgroundTint="#1A1A2E" android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+    <FrameLayout android:id="@+id/page_container"
+        android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>
