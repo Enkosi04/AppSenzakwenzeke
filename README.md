@@ -250,6 +250,27 @@ Previous Versions:
 Use of AI Tools in This AssessmentAI tools were used as a support and learning aid during this assessment, not to replace our own development work. All code was written, tested and understood by the team, and all final decisions were made by us.We used Meta AI and ChatGPT mainly for three purposes. First, for planning and structuring documentation. We asked AI to help organise our Task 1 planning, analysis and design notes into clear headings, to summarise survey results from our 30 customers, and to draft the brief explanation of development for Task 3. We also asked AI to help structure the README file so that both the website and the Android app were explained equally.Second, for code assistance and debugging. When we had errors in Kotlin, for example with DatePickerDialog validation, Retrofit API POST to /api/book.php, and RecyclerView adapters, we pasted the error message and asked for an explanation. The AI suggested code snippets, which we then tested in Android Studio, adapted to our navy and gold branding and our MySQL schema, and only kept if they worked. We also used AI to help understand PHP REST API errors and GitHub Actions workflow errors in .github/workflows/android.yml. Where AI suggested a code snippet, we cited it in code comments as Assisted by AI - adapted by team and verified it by running it on the emulator (Pixel 6, API 33) and a physical device.Third, for language and formatting. We used AI to check grammar, to shorten long paragraphs for the README, and to generate the structure for release notes and this AI disclosure.We also used AI image generation to create mockup ideas for the splash screen and logo placement, which our UI/UX designer then recreated manually in Figma and XML to match our exact colours (0A1931 and FFC72C). No AI-generated images were submitted as final work without human redesign.What AI did NOT do: AI did not write the full app, did not design the database, did not conduct interviews or surveys, and did not test the system. Those were done by Code Crafters.In summary, AI was used like a tutor and editor - to explain errors, suggest structure, and improve clarity - while the design, coding, testing and decisions remain our own original work.
 
 Video demonstration 
-
 https://drive.google.com/file/d/1aKl1cO3Iy5THxji7eTKJ2Phc6oo5ZyVU/view?usp=drivesdk
+
+Presentation video
+https://youtu.be/F9Fyepqk9rw?si=dhwYCz_mAwc9yH_S
+https://drive.google.com/file/d/1ics9ZGYQSB5Y6_5YGwRPC4HOavhyHHxJ/view?usp=drivesdk
+
+
+Evidence of preparation
+<img width="556" height="518" alt="image" src="https://github.com/user-attachments/assets/6658130d-ea63-47e3-8c08-3077351481c9" />
+<img width="549" height="517" alt="image" src="https://github.com/user-attachments/assets/d28694ef-87a2-4167-8f0e-7028f26de072" />
+<img width="530" height="611" alt="image" src="https://github.com/user-attachments/assets/8c2df3c5-e50a-4de6-9666-9eb439421bbc" />
+<img width="590" height="557" alt="image" src="https://github.com/user-attachments/assets/1f433c3e-2487-47c1-b4b8-b085e00871a5" />
+<img width="1227" height="839" alt="image" src="https://github.com/user-attachments/assets/dc9ad929-a38f-4322-8744-ea7636db211f" />
+<img width="1064" height="556" alt="image" src="https://github.com/user-attachments/assets/0b0682d3-6822-4fe3-8285-ef4ac23d4adf" />
+<img width="1068" height="728" alt="image" src="https://github.com/user-attachments/assets/fdbee64f-dcdb-4461-ba2f-3b43b39d3065" />
+<img width="1068" height="728" alt="image" src="https://github.com/user-attachments/assets/4b0a16a9-239d-4498-be27-06af1a7bd510" />
+
+
+
+
+
+
+
 
